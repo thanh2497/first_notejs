@@ -1,0 +1,29 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "first test for node js",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thanh2497/first_notejs.git"
+  },
+  "keywords": [
+    "notejs_first"
+  ],
+  "author": "thanh nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thanh2497/first_notejs/issues"
+  },
+  "homepage": "https://github.com/thanh2497/first_notejs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
